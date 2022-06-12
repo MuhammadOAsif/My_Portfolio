@@ -30,7 +30,16 @@ const Projects = () => {
 
   return (
     <div className="text-white bg-secondary p-16" id="projects">
-      {/* projects nav */}
+      <div>
+        <h1 className="text-4xl text-center font-light mb-6 text-accent">
+          MY PROJECTS
+        </h1>
+        <p className="text-center w-96 mx-auto mb-10 text-[#70757f]">
+          My Projects Of the few projects I have done, only three are shown
+          here. One is warehouse-related manufacturing related and the other is
+          single-product reviews.
+        </p>
+      </div>
       <nav className="mb-12 max-w-xl mx-auto">
         <ul className="flex flex-col md:flex-row justify-evenly items-center ">
           {projectsNav.map((item, index) => {

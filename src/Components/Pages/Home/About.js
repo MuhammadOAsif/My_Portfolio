@@ -16,7 +16,7 @@ const About = () => {
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
             <div>
-              <h1 className="text-center text-4xl text-accent-hover font-bold mb-8">
+              <h1 className="text-center text-4xl text-accent mb-8 font-light">
                 ABOUT ME
               </h1>
             </div>

@@ -38,8 +38,8 @@ const ContactMe = () => {
     <section className="section bg-primary" id="ContactMe">
       <div className="container mx-auto">
         <div className="flex flex-col items-center text-center">
-          <h2 className="section-title before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
-            Contact me
+          <h2 className="section-title text-accent font-light text-4xl before:content-contact relative before:absolute before:opacity-40 before:-top-7 before:-left-40 before:hidden before:lg:block">
+            CONTACT ME
           </h2>
           <p className="subtitle">You can contact me for any of your needs</p>
         </div>

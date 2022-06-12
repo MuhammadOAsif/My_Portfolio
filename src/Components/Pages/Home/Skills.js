@@ -11,7 +11,9 @@ const Skills = () => {
         <WorkPlace />
       </div>
       <div className="lg:w-96 mx-auto  mb-16 text-center">
-        <h1 className="text-3xl text-center font-semibold mb-3">Skills</h1>
+        <h1 className="text-3xl text-center mb-3 font-light text-accent">
+          SKILLS
+        </h1>
         <p>
           All the languages and frameworks I know as well as what the library
           knows and how proficient I am being shown by the progress bar.

@@ -54,12 +54,12 @@ export const navigation = [
     href: "projects",
   },
   {
-    name: "contact Me",
-    href: "ContactMe",
+    name: "services",
+    href: "services",
   },
   {
-    name: "blogs",
-    href: "blogs",
+    name: "contact Me",
+    href: "ContactMe",
   },
 ];
 
