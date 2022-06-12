@@ -15,6 +15,11 @@ const About = () => {
             alt=""
           />
           <div className="flex flex-col items-center text-center lg:items-start lg:text-left">
+            <div>
+              <h1 className="text-center text-4xl text-accent-hover font-bold mb-8">
+                ABOUT ME
+              </h1>
+            </div>
             <div className="flex flex-col">
               <h2 className="text-3xl lg:text-5xl font-bold lg:font-extrabold mb-3 before:content-about relative before:absolute before:opacity-40 before:-top-[2rem] before:hidden before:lg:block">
                 Muhammad Asif
@@ -66,7 +71,7 @@ const About = () => {
               </div>
             </div>
             <Link
-              to="contact"
+              to="ContactMe"
               spy={true}
               smooth={true}
               duration={500}

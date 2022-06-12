@@ -3,37 +3,37 @@ import {
   FiInstagram,
   FiGithub,
   FiTwitter,
-  FiLayout,
-  FiSettings,
+  // FiLayout,
+  // FiSettings,
   FiMail,
   FiMapPin,
   FiLinkedin,
   FiFacebook,
-  FiCode,
-  FiDatabase,
+  // FiCode,
+  // FiDatabase,
 } from "react-icons/fi";
 
 // companies icons
-// import FreelancerBrandIcon from "./assets/img/brands/freelancer.png";
-// import UpworkBrandIcon from "./assets/img/brands/upwork.png";
-// import FiverBrandIcon from "./assets/img/brands/fiverr.png";
-// import BehanceBrandIcon from "./assets/img/brands/behance.png";
-// import DribbbleBrandIcon from "./assets/img/brands/dribbble.png";
+import FreelancerBrandIcon from "../../assets/img/brands/freelancer.png";
+import UpworkBrandIcon from "../../assets/img/brands/upwork.png";
+import FiverBrandIcon from "../../assets/img/brands/fiverr.png";
+import BehanceBrandIcon from "../../assets/img/brands/behance.png";
+import DribbbleBrandIcon from "../../assets/img/brands/dribbble.png";
 
 // // projects images
-// import Project1 from "./assets/img/projects/project1.png";
-// import Project2 from "./assets/img/projects/project2.png";
-// import Project3 from "./assets/img/projects/project3.png";
+// import Project1 from "../../assets/img/projects/project1.png";
+// import Project2 from "../../assets/img/projects/project2.png";
+// import Project3 from "../../assets/img/projects/project3.png";
 
-// // skills images
-// import SkillImg1 from "./assets/img/skills/html5.png";
-// import SkillImg2 from "./assets/img/skills/css3.png";
-// import SkillImg3 from "./assets/img/skills/js.png";
-// import SkillImg4 from "./assets/img/skills/reactjs.png";
-// import SkillImg5 from "./assets/img/skills/nextjs.png";
-// import SkillImg6 from "./assets/img/skills/nodejs.png";
-// import SkillImg7 from "./assets/img/skills/github.png";
-// import SkillImg8 from "./assets/img/skills/figma.png";
+// skills images
+import SkillImg1 from "../../assets/img/skills/html5.png";
+import SkillImg2 from "../../assets/img/skills/css3.png";
+import SkillImg3 from "../../assets/img/skills/js.png";
+import SkillImg4 from "../../assets/img/skills/reactjs.png";
+import SkillImg5 from "../../assets/img/skills/nextjs.png";
+import SkillImg6 from "../../assets/img/skills/nodejs.png";
+import SkillImg7 from "../../assets/img/skills/github.png";
+import SkillImg8 from "../../assets/img/skills/figma.png";
 
 // navigation
 export const navigation = [
@@ -46,24 +46,20 @@ export const navigation = [
     href: "about",
   },
   {
-    name: "portfolio",
-    href: "portfolio",
-  },
-  {
     name: "skills",
     href: "skills",
   },
   {
-    name: "services",
-    href: "services",
+    name: "projects",
+    href: "projects",
   },
   {
     name: "blogs",
     href: "blogs",
   },
   {
-    name: "contact",
-    href: "contact",
+    name: "contact Me",
+    href: "ContactMe",
   },
 ];
 
@@ -91,29 +87,29 @@ export const social = [
   },
 ];
 
-// // companies
-// export const brands = [
-//   {
-//     img: FreelancerBrandIcon,
-//     href: "https://www.freelancer.com/u/muhammadasif2m",
-//   },
-//   {
-//     img: UpworkBrandIcon,
-//     href: "https://www.upwork.com/freelancers/~018d60e97b0b51f5b2",
-//   },
-//   {
-//     img: FiverBrandIcon,
-//     href: "https://www.fiverr.com/muhammad_asif_2?up_rollout=true",
-//   },
-//   {
-//     img: BehanceBrandIcon,
-//     href: "https://www.behance.net/",
-//   },
-//   {
-//     img: DribbbleBrandIcon,
-//     href: "https://dribbble.com/",
-//   },
-// ];
+// companies
+export const brands = [
+  {
+    img: FreelancerBrandIcon,
+    href: "https://www.freelancer.com/u/muhammadasif2m",
+  },
+  {
+    img: UpworkBrandIcon,
+    href: "https://www.upwork.com/freelancers/~018d60e97b0b51f5b2",
+  },
+  {
+    img: FiverBrandIcon,
+    href: "https://www.fiverr.com/muhammad_asif_2?up_rollout=true",
+  },
+  {
+    img: BehanceBrandIcon,
+    href: "https://www.behance.net/",
+  },
+  {
+    img: DribbbleBrandIcon,
+    href: "https://dribbble.com/",
+  },
+];
 
 // // projects
 // export const projectsData = [
@@ -163,33 +159,33 @@ export const social = [
 //   },
 // ];
 
-// // skill
-// export const skills = [
-//   {
-//     image: SkillImg1,
-//   },
-//   {
-//     image: SkillImg2,
-//   },
-//   {
-//     image: SkillImg3,
-//   },
-//   {
-//     image: SkillImg4,
-//   },
-//   {
-//     image: SkillImg5,
-//   },
-//   {
-//     image: SkillImg6,
-//   },
-//   {
-//     image: SkillImg7,
-//   },
-//   {
-//     image: SkillImg8,
-//   },
-// ];
+// skill
+export const skills = [
+  {
+    image: SkillImg1,
+  },
+  {
+    image: SkillImg2,
+  },
+  {
+    image: SkillImg3,
+  },
+  {
+    image: SkillImg4,
+  },
+  {
+    image: SkillImg5,
+  },
+  {
+    image: SkillImg6,
+  },
+  {
+    image: SkillImg7,
+  },
+  {
+    image: SkillImg8,
+  },
+];
 
 // // services
 // export const services = [
