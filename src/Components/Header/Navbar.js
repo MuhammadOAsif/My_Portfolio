@@ -5,6 +5,7 @@ import { navigation } from "../Data/Data";
 
 // import Link
 import { Link } from "react-scroll";
+import BlogsLink from "./../Pages/Blogs/BlogsLink";
 
 const Navbar = () => {
   return (
@@ -30,6 +31,7 @@ const Navbar = () => {
             </li>
           );
         })}
+        <BlogsLink />
       </ul>
     </nav>
   );

@@ -2,6 +2,7 @@ import React from "react";
 
 // import Banner Image
 import BannerImg from "../../../assets/img/banner.png";
+import BlogsLink from "../Blogs/BlogsLink";
 
 const Banner = () => {
   return (
