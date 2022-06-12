@@ -3,14 +3,14 @@ import {
   FiInstagram,
   FiGithub,
   FiTwitter,
-  // FiLayout,
-  // FiSettings,
+  FiLayout,
+  FiSettings,
   FiMail,
   FiMapPin,
   FiLinkedin,
   FiFacebook,
-  // FiCode,
-  // FiDatabase,
+  FiCode,
+  FiDatabase,
 } from "react-icons/fi";
 
 // companies icons
@@ -20,10 +20,10 @@ import FiverBrandIcon from "../../assets/img/brands/fiverr.png";
 import BehanceBrandIcon from "../../assets/img/brands/behance.png";
 import DribbbleBrandIcon from "../../assets/img/brands/dribbble.png";
 
-// // projects images
-// import Project1 from "../../assets/img/projects/project1.png";
-// import Project2 from "../../assets/img/projects/project2.png";
-// import Project3 from "../../assets/img/projects/project3.png";
+// projects images
+import Project1 from "../../assets/img/projects/project1.png";
+import Project2 from "../../assets/img/projects/project2.png";
+import Project3 from "../../assets/img/projects/project3.png";
 
 // skills images
 import SkillImg1 from "../../assets/img/skills/html5.png";
@@ -54,12 +54,12 @@ export const navigation = [
     href: "projects",
   },
   {
-    name: "blogs",
-    href: "blogs",
-  },
-  {
     name: "contact Me",
     href: "ContactMe",
+  },
+  {
+    name: "blogs",
+    href: "blogs",
   },
 ];
 
@@ -111,53 +111,53 @@ export const brands = [
   },
 ];
 
-// // projects
-// export const projectsData = [
-//   {
-//     id: "1",
-//     image: Project1,
-//     name: "Goodies",
-//     category: "Project One",
-//     description:
-//       "Our website has been made a manufacture related parts will be create any product from there.",
-//     href: "https://goodies-fed4a.web.app/",
-//   },
-//   {
-//     id: "2",
-//     image: Project2,
-//     name: "Pc House",
-//     category: "Project Two",
-//     description:
-//       "Our website has been made a warehouse related where many items will be stocked and sold from there.",
-//     href: "https://pc-house-32c57.web.app/",
-//   },
+// projects
+export const projectsData = [
+  {
+    id: "1",
+    image: Project1,
+    name: "Goodies",
+    category: "Project One",
+    description:
+      "Our website has been made a manufacture related parts will be create any product from there.",
+    href: "https://goodies-fed4a.web.app/",
+  },
+  {
+    id: "2",
+    image: Project2,
+    name: "Pc House",
+    category: "Project Two",
+    description:
+      "Our website has been made a warehouse related where many items will be stocked and sold from there.",
+    href: "https://pc-house-32c57.web.app/",
+  },
 
-//   {
-//     id: "3",
-//     image: Project3,
-//     name: "Skytech Prism",
-//     category: "Project Three",
-//     description:
-//       "Our website has been made with a product review. Business charts are also being made on the dashboard page.",
-//     href: "https://skytech-prism.netlify.app/",
-//   },
-// ];
+  {
+    id: "3",
+    image: Project3,
+    name: "Skytech Prism",
+    category: "Project Three",
+    description:
+      "Our website has been made with a product review. Business charts are also being made on the dashboard page.",
+    href: "https://skytech-prism.netlify.app/",
+  },
+];
 
-// // projects
-// export const projectsNav = [
-//   {
-//     name: "all",
-//   },
-//   {
-//     name: "Project One",
-//   },
-//   {
-//     name: "Project Two",
-//   },
-//   {
-//     name: "Project Three",
-//   },
-// ];
+// projects
+export const projectsNav = [
+  {
+    name: "all",
+  },
+  {
+    name: "Project One",
+  },
+  {
+    name: "Project Two",
+  },
+  {
+    name: "Project Three",
+  },
+];
 
 // skill
 export const skills = [
@@ -187,35 +187,33 @@ export const skills = [
   },
 ];
 
-// // services
-// export const services = [
-//   {
-//     icon: <FiLayout />,
-//     name: "Web Design",
-//     description:
-//       "I try to give the best design to a client. I also try to design as the client says. Thank you",
-//   },
-//   {
-//     icon: <FiSettings />,
-//     name: "Web Development",
-//     description:
-//       "When I do a website development I try to do it with my full attention and love because a little mistake goes a long way in paying it. So I always try to be careful about everything, so if you give me a job in the development sector, I hope I will try my best.",
-//   },
-//   {
-//     icon: <FiCode />,
-//     name: "Coding",
-//     description:
-//       "I always code with my full love. I always love to code clean. I always try to code something that someone else can understand by looking at my code.",
-//   },
-//   {
-//     icon: <FiDatabase />,
-//     name: "Database",
-//     description:
-//       "I help my clients to save and deploy all kinds of website data safely. I also help you to buy the domain of the client's wish.",
-//   },
-// ];
-
-// testimonials
+// services
+export const services = [
+  {
+    icon: <FiLayout />,
+    name: "Web Design",
+    description:
+      "I try to give the best design to a client. I also try to design as the client says. Thank you",
+  },
+  {
+    icon: <FiSettings />,
+    name: "Web Development",
+    description:
+      "When I do a website development I try to do it with my full attention and love because a little mistake goes a long way in paying it. So I always try to be careful about everything, so if you give me a job in the development sector, I hope I will try my best.",
+  },
+  {
+    icon: <FiCode />,
+    name: "Coding",
+    description:
+      "I always code with my full love. I always love to code clean. I always try to code something that someone else can understand by looking at my code.",
+  },
+  {
+    icon: <FiDatabase />,
+    name: "Database",
+    description:
+      "I help my clients to save and deploy all kinds of website data safely. I also help you to buy the domain of the client's wish.",
+  },
+];
 
 // contact
 export const contact = [
