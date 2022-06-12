@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 // import components
 import { Link } from "react-scroll";
 import Navbar from "./Navbar";
+import NavbarMobile from "./NavbarMobile";
 import Socials from "./Socials";
 
 const Header = () => {
@@ -41,8 +42,10 @@ const Header = () => {
         <div className="hidden lg:block">
           <Socials />
         </div>
-        {/* nav mobile*/}
-        <div className="lg:hidden">{/* <NavMobile /> */}</div>
+        {/* nav mobile */}
+        <div className="lg:hidden">
+          <NavbarMobile />
+        </div>
       </div>
     </header>
   );

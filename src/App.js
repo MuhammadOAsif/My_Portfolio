@@ -3,12 +3,11 @@ import "./App.css";
 import Home from "./Components/Pages/Home/Home";
 import Blogs from "./Components/Pages/Blogs/Blogs";
 import NotFound from "./Components/Pages/NotFound/NotFound";
+import PageSliderBTN from "./Components/PageSliderBTN";
 
 function App() {
   return (
     <div>
-      {/* Import All Routes And Route Component*/}
-
       <div>
         <Routes>
           <Route path="/" element={<Home />} />
@@ -17,6 +16,7 @@ function App() {
           <Route path="*" element={<NotFound></NotFound>} />
         </Routes>
       </div>
+      <PageSliderBTN />
     </div>
   );
 }
