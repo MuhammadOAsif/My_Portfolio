@@ -1,7 +1,12 @@
 import React from "react";
 import { FiEye } from "react-icons/fi";
+import { useNavigate } from "react-router-dom";
 
 const ProjectsData = ({ item }) => {
+  const navigate = useNavigate();
+  const navigateToProjects = (id) => {
+    navigate(`/details/${id}`);
+  };
   return (
     <div key={item.id} className="flex flex-col items-center text-center">
       <div>
@@ -26,7 +31,7 @@ const ProjectsData = ({ item }) => {
                   <FiEye />
                 </a>
               </button>
-              <button>
+              <button onClick={() => navigateToProjects(item.id)}>
                 <div class="badge badge-outline border-[#ac6b34]">Details</div>
               </button>
             </div>

@@ -115,7 +115,7 @@ export const brands = [
 // projects
 export const projectsData = [
   {
-    id: "1",
+    id: "Project One",
     image: Project1,
     name: "Goodies",
     category: "Project One",
@@ -124,7 +124,7 @@ export const projectsData = [
     href: "https://goodies-fed4a.web.app/",
   },
   {
-    id: "2",
+    id: "Project Two",
     image: Project2,
     name: "Pc House",
     category: "Project Two",
@@ -134,7 +134,7 @@ export const projectsData = [
   },
 
   {
-    id: "3",
+    id: "Project Three",
     image: Project3,
     name: "Skytech Prism",
     category: "Project Three",

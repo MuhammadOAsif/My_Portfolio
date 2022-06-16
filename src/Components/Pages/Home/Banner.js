@@ -2,7 +2,6 @@ import React from "react";
 
 // import Banner Image
 import BannerImg from "../../../assets/img/banner.png";
-import BlogsLink from "../Blogs/BlogsLink";
 
 const Banner = () => {
   return (
@@ -28,9 +27,7 @@ const Banner = () => {
               href="https://drive.google.com/file/d/1eCyb8vrGZxVPybQjifMw0DpK9GSMxCna/view?usp=sharing"
               target={"_blank"}
             >
-              {" "}
               <button className="btn btn-md bg-accent hover:bg-secondary-hover md:btn-lg transition-all text-white">
-                {" "}
                 Download Resume
               </button>
             </a>

@@ -1,0 +1,30 @@
+[
+    {
+      "id": "Project One",
+      "image":" Project1",
+      "name": "Goodies",
+      "category": "Project One",
+      "description":
+        "Our website has been made a manufacture related parts will be create any product from there.",
+      "href": "https://goodies-fed4a.web.app/"
+    },
+    {
+      "id": "Project Two",
+      "image":" Project2",
+      "name": "Pc House",
+      "category": "Project Two",
+      "description":
+        "Our website has been made a warehouse related where many items will be stocked and sold from there.",
+      "href": "https://pc-house-32c57.web.app/"
+    },
+  
+    {
+      "id": "Project Three",
+      "image":" Project3",
+      "name": "Skytech Prism",
+      "category": "Project Three",
+      "description":
+        "Our website has been made with a product review. Business charts are also being made on the dashboard page.",
+      "href": "https://skytech-prism.netlify.app/"
+    }
+  ]
